@@ -1,0 +1,16 @@
+# Android Studio
+/.idea/
+/shelf/
+/workspace.xml
+*.iml
+
+# Gradle
+.gradle/
+**/build/
+
+# Local configuration
+local.properties
+
+# Operating system
+.DS_Store
+Thumbs.db

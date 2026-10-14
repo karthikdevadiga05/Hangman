@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">hang</string>
+    <string name="title_last_word">LAST WORD</string>
+    <string name="subtitle_consequence">EVERY MISTAKE HAS A CONSEQUENCE.</string>
+    <string name="identify_yourself">IDENTIFY YOURSELF</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_enter">ENTER</string>
+    <string name="sign_up_prompt">NO RECORD YET? SIGN UP HERE.</string>
+
+    <!-- Register Screen Strings -->
+    <string name="title_join_void">JOIN THE VOID</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_desired_username">Name</string>
+    <string name="btn_bind_soul">BIND SOUL</string>
+    <string name="login_prompt">ALREADY SIGNED? RETURN TO LOGIN.</string>
+
+    <!-- Home Screen Strings -->
+    <string name="subtitle_save_them">CAN YOU SAVE THEM?</string>
+    <string name="btn_enter_void">ENTER THE VOID</string>
+    <string name="btn_soul_record">SOUL RECORD </string>
+    <string name="btn_wall_of_kills">WALL OF KILLS (LEADERBOARD)</string>
+    <string name="btn_ritual_insight">RITUAL INSIGHT (HOW TO PLAY)</string>
+    <string name="btn_alter_environment">ALTER ENVIRONMENT (SETTINGS)</string>
+    <string name="active_subject_format">ACTIVE SUBJECT: %1$s</string>
+    <string name="stat_animals">ANIMALS: 0 SAVED | 0 SACRIFICED</string>
+    <string name="stat_adults">ADULTS: 0 SAVED | 0 MURDERED</string>
+    <string name="stat_children">CHILDREN: 0 SAVED | 0 LOST</string>
+
+    <!-- Settings / Alter Environment Strings -->
+    <string name="title_alter_environment">ALTER ENVIRONMENT</string>
+    <string name="option_music">AMBIENT ATMOSPHERE DRONE (MUSIC)</string>
+    <string name="option_sfx">TACTILE FEEDBACK TONES (SOUND EFFECTS)</string>
+    <string name="option_vibration">PULSE INDUCTION (VIBRATION)</string>
+    <string name="option_dark_theme">ABSOLUTE COLD DARK ROOMS (DARK THEME)</string>
+    <string name="btn_logout">SEVER SUBJECT SESSION (LOGOUT)</string>
+    <string name="btn_return_surface">RETURN TO SURFACE</string>
+
+    <!-- Ritual Insight / How To Play Strings -->
+    <string name="title_ritual_insight">RITUAL INSIGHT</string>
+    <string name="rules_header">THE RULES OF THE APPARITION:</string>
+    <string name="rule_1">1. YOU ARE HERE TO RESCUE A TRAPPED ESSENCE. CHOOSE YOUR DESTINATION TARGET WISELY: ANIMALS, OBJECTS, OR CELEBRITIES.</string>
+    <string name="rule_2">2. THE LEVELS DETERMINE THE SACRIFICE RISK. EASY TARGETS ANIMALS, INTERMEDIATE TARGETS AN UNKNOWN ADULT, AND HARD INVOKES A SILENT PSYCHOLOGICAL NURSERY NIGHTMARE WHERE AN INFANT\'S PRESENCE IS THREATENED.</string>
+
+    <!-- Leaderboard / Wall of Kills Strings -->
+    <string name="title_wall_of_kills">WALL OF KILLS</string>
+    <string name="subtitle_wall_of_kills">RANKED BY RITUAL RESONANCE.\nKILLS QUANTIFY FAIL STATUS.</string>
+
+    <!-- Profile / Soul Record Strings -->
+    <string name="title_soul_record">SOUL RECORD</string>
+    <string name="subject_id_format">SUBJECT ID: %1$s</string>
+    <string name="stat_rituals_performed">RITUALS PERFORMED: %1$d</string>
+    <string name="stat_essences_saved">ESSENCES SAVED: %1$d</string>
+    <string name="stat_victim_losses">VICTIM LOSSES: %1$d</string>
+    <string name="stat_stability_rate">STABILITY RATE: %1$d%%</string>
+    <string name="stat_highest_resonance">HIGHEST RESONANCE: %1$d</string>
+    <string name="stat_rescue_streak">RESCUE STREAK: %1$d</string>
+    <string name="header_unlocked_marks">UNLOCKED MARKS (ACHIEVEMENTS)</string>
+    <string name="no_marks_text">No marks etched upon this soul.</string>
+    <string name="leaderboard_row_format">%1$d. %2$s — Resonance: %3$d | Victim Losses: %4$d</string>
+    <string name="header_performance_graph">SOUL PERFORMANCE TRENDS</string>
+    <string name="header_category_breakdown">CATEGORY ESSENCES RESCUED</string>
+    <string name="cat_animals_count">ANIMALS\n%1$d SOLVED</string>
+    <string name="cat_objects_count">OBJECTS\n%1$d SOLVED</string>
+    <string name="cat_celebrities_count">CELEBRITIES\n%1$d SOLVED</string>
+
+    <!-- Ritual Mastery & Speed Metrics -->
+    <string name="header_ritual_mastery">RITUAL MASTERY &amp; EFFICIENCY</string>
+    <string name="stat_flawless_rescues">FLAWLESS RESCUES (0 ERRORS): %1$d</string>
+    <string name="stat_critical_rescues">CRITICAL RESCUES (LAST TETHER): %1$d</string>
+    <string name="stat_salvation_rate">SALVATION RATE: %1$d%%</string>
+
+    <string name="header_speed_precision">SPEED &amp; PRECISION</string>
+    <string name="stat_fastest_rescue">FASTEST RESCUE: %1$s</string>
+    <string name="stat_letter_precision">LETTER PRECISION: %1$d%%</string>
+
+    <!-- Choose Fate / Enter Void Strings -->
+    <string name="title_choose_fate">CHOOSE YOUR FATE</string>
+    <string name="header_select_category">SELECT CATEGORY</string>
+    <string name="cat_animals">ANIMALS</string>
+    <string name="cat_objects">OBJECTS</string>
+    <string name="cat_celebrities">CELEBRITIES</string>
+
+    <string name="header_select_difficulty">SELECT TARGET SACRIFICE (DIFFICULTY)</string>
+    <string name="diff_easy">EASY - ANIMAL SACRIFICE</string>
+    <string name="diff_intermediate">INTERMEDIATE - ADULT STRANGER</string>
+    <string name="diff_hard">HARD - INNOCENT CHILD (PSYCHOLOGICAL DREAD)</string>
+
+    <string name="header_select_mode">SELECT RITUAL MODE</string>
+    <string name="mode_classic">CLASSIC (ATTEMPTS LIMIT ONLY)</string>
+    <string name="mode_timer">TIMER MODE (TICKING DEATH)</string>
+
+    <string name="btn_enter_room">ENTER THE ROOM</string>
+
+    <!-- Game Strings -->
+    <string name="title_too_late">TOO LATE.</string>
+    <string name="title_saved">ESSENCE RESCUED!</string>
+    <string name="subtitle_too_late">I\'M GONE… BUT\nTHEY ARE STILL\nWAITING FOR YOU.</string>
+    <string name="subtitle_saved">A SOUL HAS BEEN\nSAVED FROM THE\nVOID.</string>
+    <string name="the_word_was_format">THE WORD WAS:\n%1$s</string>
+    <string name="btn_try_again">TRY AGAIN</string>
+    <string name="destination_format">DESTINATION:\n%1$s /\n%2$s</string>
+    <string name="tether_format">TETHER: %1$d</string>
+    <string name="remaining_format">REMAINING:\n%1$ds</string>
+    <string name="clue_format">CLUE: %1$s</string>
+    <string name="hint_button_text">💡 HINT</string>
+    <string name="hint_toast_format">💡 CLUE: %1$s</string>
+
+    <!-- Daily Streak Strings -->
+    <string name="title_daily_streak">DAILY STREAK</string>
+    <string name="streak_count_format">🔥 %1$d DAY STREAK!</string>
+    <string name="stat_current_streak">🔥 CURRENT STREAK: %1$d DAYS</string>
+    <string name="stat_best_streak">BEST STREAK: %1$d DAYS</string>
+    <string name="streak_maintained_msg">Ritual maintained today. Return tomorrow to keep the flame alive!</string>
+    <string name="streak_lost_msg">The flame has died out! Complete a ritual today to reignite your streak.</string>
+    <string name="home_streak_format">🔥 %1$d</string>
+
+    <string name="cat_food">FOOD</string>
+
+
+    <string name="profile_name">%1$s</string>
+    <string name="games_played">GAMES PLAYED: %1$d</string>
+    <string name="games_won">GAMES WON: %1$d</string>
+    <string name="victim_losses">VICTIM LOSSES: %1$d</string>
+    <string name="win_rate">WIN RATE: %1$d%%</string>
+    <string name="total_score">TOTAL SCORE: %1$d</string>
+    <string name="win_streak">WIN STREAK: %1$d</string>
+    <string name="flawless_rescues">FLAWLESS RESCUES: %1$d</string>
+    <string name="critical_rescues">CRITICAL RESCUES: %1$d</string>
+    <string name="words_completed">WORDS COMPLETED: %1$d</string>
+    <string name="fastest_rescue">FASTEST RESCUE: %1$.1f s</string>
+    <string name="fastest_rescue_na">FASTEST RESCUE: N/A</string>
+    <string name="letter_precision">LETTER PRECISION: %1$d%%</string>
+    <string name="category_solved"> %1$s\n%2$d SOLVED</string>
+    <string name="category_animals">ANIMALS</string>
+    <string name="category_objects">OBJECTS</string>
+    <string name="category_celebrities">CELEBRITIES</string>
+    <string name="category_food">FOOD</string>
+    <string name="category_sports">SPORTS</string>
+    <string name="category_vehicles">VEHICLES</string>
+    <string name="category_technology">TECHNOLOGY</string>
+    <string name="category_nature">NATURE</string>
+    <string name="category_places">PLACES</string>
+    <string name="category_professions">PROFESSIONS</string>
+
+</resources>

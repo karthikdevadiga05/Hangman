@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ritualMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_black"
+    tools:context=".HowToPlayActivity">
+
+    <!-- Top Header -->
+    <TextView
+        android:id="@+id/tvRitualTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="serif"
+        android:letterSpacing="0.10"
+        android:text="RITUAL OF THE LAST WORD"
+        android:textColor="@color/blood_red"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Main Instruction Card -->
+    <LinearLayout
+        android:id="@+id/cardRitual"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_login_card"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/btnReturnSurfaceRitual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvRitualTitle">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="22dp"
+                android:paddingTop="24dp"
+                android:paddingEnd="22dp"
+                android:paddingBottom="28dp">
+
+                <!-- How To Play -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:letterSpacing="0.08"
+                    android:text="HOW TO PLAY"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Enter the game. Find the hidden word before the hangman is complete. One wrong guess brings you closer to the end."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <!-- Game Rules -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:letterSpacing="0.08"
+                    android:text="THE RULES"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="• Guess the hidden word one letter at a time."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="• A correct letter will appear in the word."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="• A wrong letter adds a part to the hangman."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="• You have 6 wrong guesses."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="• Guess the full word before your chances run out."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <!-- Game Modes -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:letterSpacing="0.08"
+                    android:text="GAME MODES"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="CLASSIC — Take your time. Only your wrong guesses matter."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="TIMER — The clock is watching. You have 60 seconds to find the word."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <!-- Hints -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:letterSpacing="0.08"
+                    android:text="HINTS"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Easy — 1 hint    |    Medium — 2 hints    |    Hard — 3 hints. A hint reveals one correct letter."
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <!-- Categories -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:letterSpacing="0.08"
+                    android:text="WORD CATEGORIES"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lineSpacingExtra="7dp"
+                    android:text="• ANIMALS — Words about animals&#10;&#10;• OBJECTS — Things we use every day&#10;&#10;• CELEBRITIES — Film actors, actresses and famous people&#10;&#10;• FOOD — Words about food and drinks&#10;&#10;• SPORTS — Words about sports and games&#10;&#10;• VEHICLES — Cars, bikes and other vehicles&#10;&#10;• TECHNOLOGY — Computers, devices and technology&#10;&#10;• NATURE — Plants, places and things from nature&#10;&#10;• PLACES — Cities, countries and other places&#10;&#10;• PROFESSIONS — Jobs and people at work"
+                    android:textColor="@color/text_silver"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <!-- Final Warning -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:letterSpacing="0.06"
+                    android:text="Choose your word wisely.&#10;The last mistake may be your last."
+                    android:textColor="@color/blood_red"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <!-- Bottom Return Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnReturnSurfaceRitual"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/bg_enter_button"
+        android:gravity="center"
+        android:letterSpacing="0.06"
+        android:minHeight="54dp"
+        android:paddingStart="16dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="12dp"
+        android:text="RETURN TO THE SURFACE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510839185323",
+    "project_id": "hangman-android-01",
+    "storage_bucket": "hangman-android-01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510839185323:android:7d4f216995180ff3fafcee",
+        "android_client_info": {
+          "package_name": "com.example.hang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvr24_7OzUg3SQ2111iRK3du4XJE_1Xdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

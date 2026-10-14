@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FF111111</color>
+    <color name="bg_black">#F4F4F4</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="input_bg">#EAEAEA</color>
+    <color name="blood_red">#D31212</color>
+    <color name="text_silver">#333333</color>
+    <color name="subtitle_grey">#666666</color>
+    <color name="hint_grey">#888888</color>
+
+    <color name="btn_bg">#FFFFFF</color>
+    <color name="key_normal_bg">#FFFFFF</color>
+    <color name="key_correct_bg">#D8F3DC</color>
+    <color name="key_used_bg">#D0D0D0</color>
+    <color name="key_used_stroke">#AAAAAA</color>
+    <color name="row_bg">#FFFFFF</color>
+    <color name="row_stroke">#CCCCCC</color>
+    <color name="row_user_bg">#FFE8CC</color>
+    <color name="profile_circle_bg">#E0E0E0</color>
+    <color name="profile_field_bg">#FFFFFF</color>
+    <color name="profile_field_stroke">#BBBBBB</color>
+</resources>
